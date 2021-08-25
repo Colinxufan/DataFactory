@@ -14,7 +14,7 @@ import os
 
 
 def zhengjiao(request):
-    return render(request,'zhengjiao.html')
+    return render(request, 'zhengjiao.html')
 
 # 正交工具运行
 def zhengjiao_play(request):
@@ -40,8 +40,8 @@ def zhengjiao_play(request):
                 break
         else:
             res.append(i)
-    # print('res:',res)
-    # print('filter:',filter)
+    print('res:',res)
+    print('filter:',filter)
 
     wugu = [] #声明无辜组合列表
     #开始对filter，整理出无辜组合
